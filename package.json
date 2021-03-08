@@ -8,15 +8,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/loucmane/groupFourWebshop.git"
+        "url": "git+https://github.com/LouLapins/AccentWebshop.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/loucmane/groupFourWebshop/issues"
+        "url": "https://github.com/LouLapins/AccentWebshop/issues"
     },
-    "homepage": "https://github.com/loucmane/groupFourWebshop#readme",
+    "homepage": "https://github.com/LouLapins/AccentWebshop#readme",
     "devDependencies": {
         "gulp": "^4.0.2",
         "gulp-sass": "^4.1.0",
