@@ -54,7 +54,7 @@ function renderCart() {
             .html("&#8592" + " <u>Go get some stuff!</u>")
             .on("click", function() {
 
-                window.location.href = "/products.html"
+                window.location.href = "../HTML/products.html"
             })
             .appendTo(main)
 
@@ -255,7 +255,7 @@ function renderCart() {
         .attr("id", "checkoutBtn")
         .html("CHECKOUT")
         .on("click", function() {
-            window.location.href = "/checkout.html";
+            window.location.href = "../HTML/checkout.html";
         })
         .appendTo(summary)
 
@@ -269,7 +269,7 @@ function renderCart() {
         .attr("id", "shopBtn")
         .html("Continue Shopping")
         .on("click", function() {
-            window.location.href = "/products.html";
+            window.location.href = "../HTML/products.html";
         })
         .appendTo(summary)
 }
