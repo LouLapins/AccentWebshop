@@ -22,7 +22,7 @@ function renderNavbar() {
     //HYPERLINK LOGOTYPE -> HOME
     $(".logotype")
         .on("click", function() {
-            window.location.href = "index.html";
+            window.location.href = "/AccentWebshop";
             console.log("klick");
         });
 }
