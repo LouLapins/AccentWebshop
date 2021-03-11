@@ -461,7 +461,7 @@ function renderCartSummary() {
         .appendTo(cartSummary)
         .html("Back to cart")
         .on("click", function() {
-            window.location.href = "HTML/cart.html";
+            window.location.href = "../HTML/cart.html";
         });
 }
 
@@ -512,5 +512,5 @@ function validateRadioForm() {
 }
 
 function completeOrder() {
-    window.location.href = "HTML/confirmation.html";
+    window.location.href = "../HTML/confirmation.html";
 }
