@@ -16,7 +16,7 @@
     "bugs": {
         "url": "https://github.com/LouLapins/AccentWebshop/issues"
     },
-    "homepage": "https://github.com/LouLapins/AccentWebshop#readme",
+    "homepage": "https://loulapins.github.io/AccentWebshop",
     "devDependencies": {
         "gulp": "^4.0.2",
         "gulp-sass": "^4.1.0",
