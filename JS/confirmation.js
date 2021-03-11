@@ -5,7 +5,7 @@ $(function() {
     $("#shopBtn")
         .on("click", function() {
 
-            window.location.href = "../HTML/products.html";
+            window.location.href = "HTML/products.html";
         });
 });
 

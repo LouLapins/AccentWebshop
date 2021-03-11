@@ -220,7 +220,7 @@ function renderPaymentSection() {
             renderPaymentSection()
         })
         .appendTo(aTag)
-    
+
     //REVIEW ORDER
     $("<button>")
         .addClass("continueBtn")
@@ -310,9 +310,9 @@ function renderOrderInfo() {
     setOrderInfo();
 
     let orderSummary = $("#checkoutOrderInfo")
-    .html("")
-    .hide()
-    .fadeIn(1000);
+        .html("")
+        .hide()
+        .fadeIn(1000);
 
     for (let i = 0; i < orderInfo.length; i++) {
 
@@ -392,9 +392,9 @@ function renderOrderInfo() {
 function renderCartSummary() {
 
     let cartSummary = $("#checkoutTotal")
-    .html("")
-    .hide()
-    .fadeIn(1000);
+        .html("")
+        .hide()
+        .fadeIn(1000);
 
     $("<h4>")
         .html("Your Products")
@@ -461,7 +461,7 @@ function renderCartSummary() {
         .appendTo(cartSummary)
         .html("Back to cart")
         .on("click", function() {
-            window.location.href = "../HTML/cart.html";
+            window.location.href = "HTML/cart.html";
         });
 }
 
@@ -512,5 +512,5 @@ function validateRadioForm() {
 }
 
 function completeOrder() {
-    window.location.href = "../HTML/confirmation.html";
+    window.location.href = "HTML/confirmation.html";
 }
