@@ -16,13 +16,13 @@ function renderNavbar() {
     //HYPERLINK SHOPPINGCARTBUTTON -> CART
     $(".shoppingCartBtn", )
         .on("click", function() {
-            window.location.href = "../AccentWebshop/HTML/cart.html";
+            window.location.href = "https://loulapins.github.io/AccentWebshop/HTML/cart.html";
         });
 
     //HYPERLINK LOGOTYPE -> HOME
     $(".logotype")
         .on("click", function() {
-            window.location.href = "../AccentWebshop/index.html";
+            window.location.href = "https://loulapins.github.io/AccentWebshop/index.html";
             console.log("klick");
         });
 }
