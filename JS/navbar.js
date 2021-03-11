@@ -16,13 +16,13 @@ function renderNavbar() {
     //HYPERLINK SHOPPINGCARTBUTTON -> CART
     $(".shoppingCartBtn", )
         .on("click", function() {
-            window.location.href = "../HTML/cart.html";
+            window.location.href = "../AccentWebshop/HTML/cart.html";
         });
 
     //HYPERLINK LOGOTYPE -> HOME
     $(".logotype")
         .on("click", function() {
-            window.location.href = "../index.html";
+            window.location.href = "../AccentWebshop/index.html";
             console.log("klick");
         });
 }
