@@ -183,7 +183,7 @@ function renderProducts() {
         .attr("id", "goCartBtn")
         .html("<i class='fas fa-shopping-cart'></i> " + "Go to Shopping Cart")
         .on("click", function() {
-            window.location.href = "../HTML/cart.html";
+            window.location.href = "HTML/cart.html";
         })
         .appendTo("#cartBtnContainer")
 }
