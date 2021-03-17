@@ -5,59 +5,40 @@
 #mainProducts {
     @include fontBread();
     @include flexCenter(column);
-    padding: 5% 0 5% 0;
-    
     h2 {
         @include fontHeading();
-        margin: 3rem;
+        margin-top: 2rem;
     }
-
     #productsContainer {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-
+        margin-bottom: 2rem;
         .eachProduct {
             width: 50%;
             @include flexCenter(column);
             margin-top: 5%;
-            
             .productImage {
                 width: 80%;
                 cursor: pointer;
             }
-
             .descDiv {
-                @include flexCenter(row);
-                margin-top: 3rem;
-                padding: 1rem;
+                @include flexCenter(column);
+                text-align: center;
                 width: 80%;
-
                 p {
-                    align-self: flex-start;
                     color: $black;
                     width: 80%;
                 }
-
                 .addCartBtn {
+                    margin-top: 2rem;
                     @include buttonBlack();
-                    align-self: flex-end;
-                    @include flexCenter(column);
-                    height: 4rem;
-                    width: 4rem;
-                    cursor: pointer;
-                    
-                    i {
-                        font-size: 2rem;
-                    }
                 }
             }
         }
-        
         #cartBtnContainer {
             @include flexCenter(column);
             width: 100vw;
-
             #goCartBtn {
                 @include buttonWhite();
                 margin-top: 2rem;
@@ -65,7 +46,6 @@
             }
         }
     }
-
     .productInfoBox {
         @include flexCenter(column);
         position: fixed;
@@ -78,38 +58,31 @@
         background-color: $white;
         z-index: 3000;
         overflow: scroll;
-
         .infoBoxImage {
             width: 50%;
             margin-top: 20rem;
         }
-
         .detailsContainer {
             padding: 2rem;
-
             h3 {
                 @include fontTitle();
                 margin-bottom: .5rem;
                 text-transform: uppercase;
             }
-
             h4 {
                 @include fontSubtitle();
                 margin: 1rem 0 1rem 0;
             }
-
             h5 {
                 @include fontSubtitle();
                 margin: 1rem 0 .5rem 0;
             }
-
             .addToCartBtn {
                 @include buttonSlim();
                 @include flexCenter(column);
                 height: 1rem;
                 margin: 2rem auto 2rem auto;
             }
-
             .backToShopBtn {
                 @include fontSubtitle();
                 text-align: center;
@@ -118,7 +91,6 @@
                 cursor: pointer;
             }
         }
-
         .crossMark {
             position: absolute;
             top: 0;
@@ -127,93 +99,73 @@
             cursor: pointer;
         }
     }
-
     //MEDIA QUERIES
     @media screen and(min-width: 768px) {
         @include fontBody();
-
         #productsContainer {
             width: 80%;
             justify-content: space-evenly;
-            margin: auto;
-
             .eachProduct {
                 width: 33.3%;
-
                 .productImage {
-                    box-shadow: 0 0 2rem lightgray;
                     width: 60%;
                 }
-
                 .descDiv {
                     width: 60%;
                     border: none;
                     padding: 0;
-
                     p {
                         @include fontSubtitle();
                     }
                 }
             }
-
             #cartBtnContainer {
                 #goCartBtn {
                     @include fontSubtitle();
                     padding: 4rem;
-                    margin-top: 6rem;
+                    margin: 6rem;
                 }
             }
         }
-
         .productInfoBox {
             flex-direction: row;
             top: 10vh;
             height: 80vh;
-
             .infoBoxImage {
                 width: 30%;
                 margin: auto 10rem auto 10rem;
             }
-
             .detailsContainer {
                 padding: 3rem;
-
                 h3 {
                     @include fontLogotype();
                     margin: 1rem 0 1rem 0;
                     text-transform: uppercase;
                 }
-    
                 h4 {
                     @include fontTitle();
                     margin: 1rem 0 1rem 0;
                 }
-
                 h5 {
                     @include fontSubtitle();
                     margin: 2rem 0 1rem 0;
-
                 }
-            
                 .addToCartBtn {
                     @include buttonBlack();
                     margin: 2rem 0 2rem 0;
                 }
-
                 .backToShopBtn {
                     @include fontTitle();
                     margin: 5rem 10rem 0 0;
                     text-transform: uppercase;
                 }
             }
-
             .crossMark {
                 right: 2rem;
                 font-size: 5rem;
             }
         }
     }
-
     .myModal {
         position: absolute;
         top: 8rem;
@@ -221,6 +173,5 @@
         height: 200rem;
         width: 100%;
         background-color: rgba( 255, 255, 255, .6);
-     }
+    }
 }
-

@@ -149,7 +149,7 @@ function renderProducts() {
         $("<button>")
             .addClass("addCartBtn")
             .attr("type", "button")
-            .html("<i class='fas fa-cart-plus'></i>")
+            .html("Add to cart")
             .on("click", { product: product }, function() {
 
                 let foundProduct = false;
