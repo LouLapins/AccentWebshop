@@ -181,7 +181,7 @@ function renderProducts() {
 
     $("<button>")
         .attr("id", "goCartBtn")
-        .html("<i class='fas fa-shopping-cart'></i> " + "Go to Shopping Cart")
+        .html("<i class='fas fa-shopping-bag'></i> " + "Go to Shopping Cart")
         .on("click", function() {
             window.location.href = "https://loulapins.github.io/AccentWebshop/HTML/cart.html";
         })
