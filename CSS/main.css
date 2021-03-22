@@ -114,7 +114,7 @@ header {
   background-color: #FFF8E2;
   width: 100%;
   padding: 5%;
-  height: 8rem; }
+  height: 7rem; }
   .navbar .hamburgerBtn {
     width: 30%;
     position: absolute;
@@ -148,7 +148,7 @@ header {
       margin: 2rem; }
   .navbar .shoppingCartBtn {
     position: absolute;
-    top: 2rem;
+    top: 1.5rem;
     right: 2rem;
     z-index: 800;
     font-size: 3rem;
@@ -159,9 +159,9 @@ header {
       align-items: center;
       flex-direction: column;
       position: absolute;
-      top: 0;
+      top: 1rem;
       border: 0.1rem solid #FFF5D3;
-      right: -.5rem;
+      right: -1rem;
       background-color: #000000;
       color: #FFF5D3;
       border-radius: 50%;
@@ -190,12 +190,7 @@ header {
       .navbar .shoppingCartBtn {
         font-size: 3.5rem;
         margin-right: 2rem;
-        z-index: 1000; }
-        .navbar .shoppingCartBtn #counterContainer {
-          width: 2.5rem;
-          height: 2.5rem;
-          font-size: 1.5rem;
-          padding: 0 0 .1rem .1rem; } }
+        z-index: 1000; } }
 
 #mainLanding {
   width: 100%;

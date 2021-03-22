@@ -3,8 +3,7 @@
     background-color: $primary-alt;
     width: 100%;
     padding: 5%;
-    height: 8rem;
-
+    height: 7rem;
     .hamburgerBtn {
         width: 30%;
         position: absolute;
@@ -14,7 +13,6 @@
         font-size: 3rem;
         cursor: pointer;
     }
-
     .myUl {
         @include flexCenter(column);
         display: none;
@@ -25,7 +23,6 @@
         height: 100vh;
         width: 100vw;
         background-color: $primary-alt;
-
         a {
             text-decoration: none;
             color: $black;
@@ -33,7 +30,6 @@
                 opacity: 0.2;
             }
         }
-
         li {
             z-index: 2000;
             text-align: center;
@@ -41,21 +37,19 @@
             margin: 2rem;
         }
     }
-
     .shoppingCartBtn {
         position: absolute;
-        top: 2rem;
+        top: 1.5rem;
         right: 2rem;
         z-index: 800;
         font-size: 3rem;
         cursor: pointer;
-
         #counterContainer {
             @include flexCenter(column);
             position: absolute;
-            top: 0;
+            top: 1rem;
             border: .1rem solid $primary;
-            right: -.5rem;
+            right: -1rem;
             background-color: $black;
             color: $primary;
             border-radius: 50%;
@@ -64,17 +58,14 @@
             font-size: 1rem;
         }
     }
-
     @media screen and(min-width: 768px) {
         @include fontSubtitle();
         justify-content: space-around;
         height: 8rem;
         padding: 0;
-
         .hamburgerBtn {
             display: none;
         }
-
         .myUl {
             display: flex;
             position: relative;
@@ -82,20 +73,12 @@
             width: 100%;
             flex-direction: row;
             justify-content: space-around;
-            padding:0 10% 0 10%;
+            padding: 0 10% 0 10%;
         }
-
         .shoppingCartBtn {
             font-size: 3.5rem;
             margin-right: 2rem;
             z-index: 1000;
-
-            #counterContainer {
-                width: 2.5rem;
-                height: 2.5rem;
-                font-size: 1.5rem;
-                padding: 0 0 .1rem .1rem;
-            }
         }
     }
 }
