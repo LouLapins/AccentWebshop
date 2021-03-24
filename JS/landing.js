@@ -6,6 +6,6 @@ $(function() {
 
     $("#shopNowBtn")
         .on("click", function() {
-            window.location.href = "../HTML/products.html";
+            window.location.href = "https://loulapins.github.io/AccentWebshop/HTML/products.html";
         });
 });
